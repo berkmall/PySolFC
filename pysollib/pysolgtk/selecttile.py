@@ -107,7 +107,8 @@ class SelectTileDialogWithPreview(MfxDialog):
                              (_('Navy'),   '#000086'),
                              (_('Olive'),  '#868200'),
                              (_('Orange'), '#f79600'),
-                             (_('Teal'),   '#008286'),):
+                             (_('Teal'),   '#008286'),
+                             (_('Black'),   '#000000'),):
             child_iter = model.append(iter)
             model.set(child_iter, 0, color, 1, index)
             self.all_keys.append(value)

@@ -868,6 +868,11 @@ class OptionsMenuDialog(LMenuDialog):
                     _('Teal'),
                     self.menubar.tkopt.color_vars[key], '#008286',
                     self.menubar.mOptTableColor)
+                self.addRadioNode(
+                    tv, rg1,
+                    _('Black'),
+                    self.menubar.tkopt.color_vars[key], '#000000',
+                    self.menubar.mOptTableColor)
 
             rg1 = tv.add_node(
                 LTreeNode(text=_('Tiles and Images')), rg)
